@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Dia_light';
+    src: url('../font/Diavlo_LIGHT_II_37.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+h2.fontface {
+	font: 60px/30px 'Dia_light', Arial, sans-serif;
+	letter-spacing: -1;
+		color: rgb(162,15,65);
+
+}
+
+h3 {
+	font: 40px/30px 'Dia_light', Arial, sans-serif;
+	letter-spacing: -1;
+	color: rgb(162,15,65);
+	margin-bottom: 2px;
+
+}
+
+
+p {
+	font: 18px/27px 'Dia_light', Arial, sans-serif; 
+	text-align: justify;
+}
+
+ol {
+	font: 18px/27px 'Dia_light', Arial, sans-serif; 
+}
+
+p.estilo1 {
+	font: 24px/27px 'Dia_light', Arial, sans-serif; 
+}
+p.estilo3 {
+	font: 20px/27px 'Dia_light', Arial, sans-serif; 
+}
+
+p.estilo2 {
+	font: 32px/27px 'Dia_light', Arial, sans-serif; 
+}
+		
+#container {
+	width: 812px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(255,255,255);
+	padding: 20px;
+} 
+#container1 {
+	width: 812px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(162,15,65,0.5);
+	padding: 0px;
+} 
+#container2 {
+	width: 812px;
+	height: 100px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,0.1);
+	padding: 0px;
+} 
+#container4 {
+	width: 810px;
+	height: 25px;
+
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,0.1);
+	padding-left: 5px;
+	text-align: center;
+	
+} 
+#container3 {
+	width: 812px;
+		height: 30px;
+
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,0.1);
+	padding: 0px;
+} 
+
+a:link{color:rgba(162,15,65,0.8);background:transparent;text-decoration:none}
+a:visited{color:rgba(162,15,65,0.4);background:transparent;text-decoration:none}
+a:active{color:rgba(0,0,0,0.4);background:transparent;text-decoration:none}
+a:hover{color:rgba(0,0,0,0.8);background:transparent;text-decoration:none}
+hr{border: 5px solid; color:rgba(0,0,0,0.5)}
